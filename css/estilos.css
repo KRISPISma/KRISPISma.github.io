@@ -532,9 +532,14 @@ input::-moz-input-placeholder {
 }
 .superior {
     width: 280px;
+    height: 95px;    
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
+/* .caracteristicas {
+    height: 95px;
+} */
 .datos_direccion {
     width: 200px;
     font-size: 16px;
