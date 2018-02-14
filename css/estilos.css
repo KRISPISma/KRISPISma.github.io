@@ -217,6 +217,7 @@ header nav ul li a:hover {color: dodgerblue;}
 }
 .boton_newsletter{
     background: -webkit-repeating-linear-gradient( top, dodgerblue,darkslateblue, darkblue);
+    background: -moz-repeating-linear-gradient( top, dodgerblue,darkslateblue, darkblue);    
     font-size: 20px;    
     color: white;
     padding: 15px;
@@ -226,6 +227,7 @@ header nav ul li a:hover {color: dodgerblue;}
 }
 .boton_newsletter:hover {
     background: -webkit-repeating-linear-gradient( top, darkblue, darkslateblue, dodgerblue);
+    background: -moz-repeating-linear-gradient( top, darkblue, darkslateblue, dodgerblue);    
     cursor: pointer;   
     border: 4px solid darkblue;  
     margin: 10px 20px;    
@@ -408,7 +410,15 @@ label {
 input::-webkit-input-placeholder {
     color: dodgerblue;
 }
+input::-moz-input-placeholder {
+    color: dodgerblue;
+}
 #nombre::-webkit-input-placeholder {
+    background-image: url('../img/man.svg');
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+#nombre::-moz-input-placeholder {
     background-image: url('../img/man.svg');
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -418,7 +428,17 @@ input::-webkit-input-placeholder {
     background-repeat: no-repeat;
     padding-left: 25px;
 }
+#apellidos::-moz-input-placeholder {
+    background-image: url('../img/icons8-grupo-de-primer-plano-seleccionado-20.png');
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
 #telefono::-webkit-input-placeholder {
+    background-image: url('../img/icons8-teléfono-celular-filled-20.png');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+#telefono::-moz-input-placeholder {
     background-image: url('../img/icons8-teléfono-celular-filled-20.png');
     background-repeat: no-repeat;
     padding-left: 20px;
@@ -428,8 +448,14 @@ input::-webkit-input-placeholder {
     background-repeat: no-repeat;
     padding-left: 25px;
 }
+#mail::-moz-input-placeholder {
+    background-image: url('../img/icons8-mensaje-relleno-filled-20.png');
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
 .boton_contacto{
     background: -webkit-repeating-linear-gradient( top, dodgerblue,darkslateblue, darkblue);
+    background: -moz-repeating-linear-gradient( top, dodgerblue,darkslateblue, darkblue);    
     font-size: 18px;    
     color: white;
     padding: 15px;
@@ -441,6 +467,7 @@ input::-webkit-input-placeholder {
 }
 .boton_contacto:hover {
     background: -webkit-repeating-linear-gradient( top, darkblue, darkslateblue, dodgerblue);
+    background: -moz-repeating-linear-gradient( top, darkblue, darkslateblue, dodgerblue);    
     cursor: pointer;   
     border: 2px solid darkblue;  
     margin: 10px 20px;    
@@ -606,6 +633,7 @@ h4 {
 }
 select {
     -webkit-appearance: none;
+    -moz-appearance: none;    
     color: dodgerblue;
     border: solid 3px darkblue;
     border-radius: 20px;
@@ -626,6 +654,7 @@ select:focus {
 }
 textarea {
     -webkit-appearance: none;
+    -moz-appearance: none;    
     font-family: 'Josefin Sans', sans-serif;
     color: dodgerblue;
     /* No se porque no cambia el color del placeholder */
@@ -648,6 +677,7 @@ textarea:focus {
 }
 .fecha {
     -webkit-appearance: none;
+    -moz-appearance: none;    
     font-family: 'Josefin Sans', sans-serif;
     color: dodgerblue;
     border: solid 3px darkblue;
@@ -663,6 +693,7 @@ textarea:focus {
 }
 .capacidad {
     -webkit-appearance: none;
+    -moz-appearance: none;    
     font-family: 'Josefin Sans', sans-serif;
     color: dodgerblue;
     border: solid 3px darkblue;
