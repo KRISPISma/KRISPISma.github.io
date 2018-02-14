@@ -243,9 +243,9 @@ header nav ul li a:hover {color: dodgerblue;}
 /* Footer */
 footer {
     background:
-    linear-gradient(135deg, darkslateblue 22px, dodgerblue 22px, dodgerblue 24px, transparent 24px, transparent 67px, dodgerblue 67px, dodgerblue 69px, transparent 69px),
-    linear-gradient(225deg, darkslateblue 22px, dodgerblue 22px, dodgerblue 24px, transparent 24px, transparent 67px, dodgerblue 67px, dodgerblue 69px, transparent 69px)0 64px;
-    background-color:darkslateblue;
+    linear-gradient(135deg, rgb(90, 79, 165) 22px, dodgerblue 22px, dodgerblue 24px, transparent 24px, transparent 67px, dodgerblue 67px, dodgerblue 69px, transparent 69px),
+    linear-gradient(225deg, rgb(90, 79, 165) 22px, dodgerblue 22px, dodgerblue 24px, transparent 24px, transparent 67px, dodgerblue 67px, dodgerblue 69px, transparent 69px)0 64px;
+    background-color:rgb(90, 79, 165);
     background-size: 64px 128px;
 
     color: white; 
@@ -263,7 +263,7 @@ footer {
     color: dodgerblue;
     height:40px;
     width: 40px;
-    background-color: #483d8b;
+    background-color: rgb(90, 79, 165);
     border-radius: 20px;
     display: flex;
     justify-content: center;
