@@ -532,7 +532,7 @@ input::-moz-input-placeholder {
 }
 .superior {
     width: 280px;
-    height: 95px;    
+    height: 95px; /* para obligar a .caracteristicas a desbordarse en MOZILLA */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
