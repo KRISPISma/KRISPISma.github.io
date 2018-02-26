@@ -483,6 +483,7 @@ input::-moz-input-placeholder {
     width: 300px;
     height: 400px;
     box-shadow: 2px 2px 4px cornflowerblue;
+    background-color: rgba(255, 247, 220, 0.5);    
     /* margin:40px; */
 }
 .imagen {
